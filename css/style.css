@@ -94,8 +94,8 @@
     display: flex;
     align-items: flex-start;
     background-color: #ECE9E6;
-    width: 60%;
-    height: 65vh;
+    width: 65%;
+    height: 80vh;
     border-radius: .5rem;
 }
 
@@ -115,7 +115,7 @@
 }
 
 
-.lado1-cadastro-card button{
+.lado1-cadastro-card a{
     margin-top: 90%;
 }
 
@@ -156,6 +156,7 @@
     width: 80%;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2px;
 
 }
 
