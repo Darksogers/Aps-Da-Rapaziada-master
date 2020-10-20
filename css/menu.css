@@ -14,7 +14,9 @@ body{
 
 header{
     position: fixed;
-    background-color: black;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     justify-content: center;
     width: 100%;
@@ -66,6 +68,9 @@ header{
     font-weight: bolder;
     border-radius: .5rem ;
     color: rgb(255, 255, 255);
+    background-image: url('../imgs/bodao.png');
+    background-size: contain;
+    background-position: center;
 }
 
 
@@ -88,11 +93,15 @@ main{
     padding: 15px;
     margin: auto;
     display: grid;
-    height: 100%;
+    
     width: 980px;
     max-width: 90%;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 20px;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 .card{
