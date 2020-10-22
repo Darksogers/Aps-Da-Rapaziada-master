@@ -53,15 +53,15 @@ header{
 
 .side2 i:hover{
     color: rgb(211, 68, 240);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .hero{
     display: flex;
     margin: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
     width: 600px;
     height: 300px;
     max-width: 90%;
@@ -75,15 +75,8 @@ header{
 }
 
 
-.hero h2{
-    font-size: 3rem;
-    font-weight: 900%;
-    
-}
-
-.hero p{
-    font-size: 1.6rem;
-    font-weight: 900%;
+.hero button{
+    margin-bottom: 5px;
 }
 
 main{
@@ -117,4 +110,7 @@ main{
 
 .card:hover{
     transform: scale(1.1,1.1);
+    -webkit-box-shadow: 2px 6px 29px 1px rgba(228,242,39,1);
+    -moz-box-shadow: 2px 6px 29px 1px rgba(228,242,39,1);
+    box-shadow: 2px 6px 29px 1px rgba(228,242,39,1);
 }
