@@ -44,13 +44,12 @@ main{
 }
 
 .container{
-    display: grid;
+    display: flex;
     width: 980px;
     max-width: 90%;
     padding: 15px;
     margin: auto;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    flex-direction: column;
     background-color: black;
     opacity: 95%;
 }
@@ -58,7 +57,7 @@ main{
 .card{
     display: flex;
     background-color: blueviolet;
-    height: 300px;
+    width: 90%;
     flex-direction: column;
     justify-content: center;
 }
