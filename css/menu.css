@@ -105,7 +105,10 @@ main{
     cursor: pointer;
     height: 300px;
     border-radius: .2rem;
+}
 
+.card h2{
+    color: rgb(116, 35, 209);
 }
 
 .card:hover{
