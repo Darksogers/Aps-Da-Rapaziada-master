@@ -71,7 +71,7 @@ header{
     color: rgb(255, 255, 255);
     background-image: url('../imgs/bodao.png');
     background-size: contain;
-    background-position: center;
+    background-repeat: round;
 }
 
 

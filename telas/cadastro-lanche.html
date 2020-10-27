@@ -20,30 +20,36 @@
     <main>
         <div class="container">
             <div class="card" style="background-image: url('../imgs/bgHam.jpg'); background-size: cover; background-position: center;">
+                <div class="header">
+                    <h1>INGREDIENTE</h1>
+                </div>
                 <div class="card-body">
                     <div>
-                        <label for="">Componente</label>
-                        <br>
                         <input id="txtNome" type="text" class="form-control" placeholder="Nome" aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <br>
                         <input id="txtDesc" type="text" class="form-control" placeholder="Descrição" aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <br>
-                        
+                       
+                        <div class="form-group">
+                            <label for="exampleFormControlFile1">Imagem</label>
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1" onchange="encodeImageFileAsURL(this)">
+                        </div>
+                       
                     </div>
                 </div>
                 <div class="card-footer"></div>
             </div>
             <div class="card" style="background-image: url('../imgs/bgHam.jpg'); background-size: cover; background-position: center;">
+                <div class="header">
+                    <h1>PREÇO</h1>
+                </div>
                 <div class="card-body">
-                    <div>
-                        <label for="">Preço</label>
-                        <br>
+                    <div>                        
                         <div class="input-group mb-3">
                             <select class="custom-select" id="inputGroupSelect01">
                                 <option value="">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option>
                              <!--Inserir ingredientes aqui-->
                             </select>
-
                         </div>
                         <br>
                         <input id="txtPreco" type="tel" class="form-control" placeholder="Preço" aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -51,12 +57,15 @@
                         <input id="txtPeso" type="text" class="form-control" placeholder="Peso" aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <br>
                         <input id="txtUnidadeMedida" type="text" class="form-control" placeholder="Unidade de Medida" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                        
-                        
                     </div>
                 </div>
                 <div class="card-footer"></div>
             </div>
+
+            <div class="card" style="background-color: azure; background-size: cover; background-position: center;">
+                <img src="" alt=""  id="imgFodaFodase" style="width: 100%; height: 100%;">
+            </div>
+
         </div>
     </main>
     
@@ -67,7 +76,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="../js/pedido.js"></script>
+    <script src="../js/cadastro-lanche.js"></script>
     <script src="../js/utils.js"></script>
 </body>
 </html>
